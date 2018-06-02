@@ -1,0 +1,8 @@
+.sidebar__icon {
+  font-size: 20px !important; }
+
+.sidebar__text {
+  padding: 0px !important; }
+  .sidebar__text > span {
+    font-size: 0.9rem;
+    font-weight: 500 !important; }
