@@ -10,6 +10,9 @@ import Button from '@material-ui/core/Button';
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import Typography from '@material-ui/core/Typography';
+
+import TeamStats from './TeamStats';
+
 import './roster.css';
 
 const styles = theme => ({
@@ -122,6 +125,7 @@ class Roster extends Component {
           Next
           <KeyboardArrowRight />
         </Button>
+        <TeamStats />
       </div>
     );
   }
