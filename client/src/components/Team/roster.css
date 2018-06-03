@@ -1,0 +1,10 @@
+.player__card__text {
+  padding: 12px 6px 0 6px !important;
+  text-align: center;
+}
+
+.player__card__container {
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+}

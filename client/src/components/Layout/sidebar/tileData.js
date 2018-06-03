@@ -28,13 +28,13 @@ export const mailFolderListItems = (
       </ListItemIcon>
       <ListItemText primary="Starred" className="sidebar__text" />
     </ListItem>
-    <ListItem button>
+    <ListItem button component={Link} to="/schedule">
       <ListItemIcon>
         <SendIcon className="sidebar__icon" />
       </ListItemIcon>
       <ListItemText primary="Send mail" className="sidebar__text" />
     </ListItem>
-    <ListItem button>
+    <ListItem button component={Link} to="/roster">
       <ListItemIcon>
         <DraftsIcon className="sidebar__icon" />
       </ListItemIcon>

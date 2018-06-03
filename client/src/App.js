@@ -17,6 +17,8 @@ import Header from './components/Layout/header/Header';
 // Teams
 import Teams from './components/Team/Teams';
 import News from './components/News/News';
+import Schedule from './components/Team/Schedule';
+import Roster from './components/Team/Roster';
 
 const styles = theme => ({
   root: {
@@ -25,8 +27,8 @@ const styles = theme => ({
     zIndex: 1,
     overflow: 'hidden',
     position: 'relative',
-    display: 'flex',
-    paddingTop: '2em'
+    display: 'flex'
+    // paddingTop: '.5em'
   },
   content: {
     flexGrow: 1,
@@ -74,6 +76,8 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={Teams} />
                 <Route exact path="/news" component={News} />
+                <Route exact path="/schedule" component={Schedule} />
+                <Route exact path="/roster" component={Roster} />
               </Switch>
             </main>
           </div>
