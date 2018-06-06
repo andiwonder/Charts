@@ -26,13 +26,13 @@ export const mailFolderListItems = (
       <ListItemIcon>
         <StarIcon className="sidebar__icon" />
       </ListItemIcon>
-      <ListItemText primary="Starred" className="sidebar__text" />
+      <ListItemText primary="News" className="sidebar__text" />
     </ListItem>
-    <ListItem button component={Link} to="/schedule">
+    <ListItem button component={Link} to="/schedule/all">
       <ListItemIcon>
         <SendIcon className="sidebar__icon" />
       </ListItemIcon>
-      <ListItemText primary="Send mail" className="sidebar__text" />
+      <ListItemText primary="Schedule" className="sidebar__text" />
     </ListItem>
     <ListItem button component={Link} to="/roster">
       <ListItemIcon>

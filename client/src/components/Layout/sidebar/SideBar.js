@@ -31,7 +31,7 @@ function SideBar(props) {
     >
       <div className={classes.toolbar} />
       <List>{mailFolderListItems}</List>
-      <List>{otherMailFolderListItems}</List>
+      {/*<List>{otherMailFolderListItems}</List>*/}
     </Drawer>
   );
 }

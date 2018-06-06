@@ -11,6 +11,15 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 import Typography from '@material-ui/core/Typography';
 
+import Radio from '@material-ui/core/Radio';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import RadioButtonUncheckedIcon from '@material-ui/icons/RadioButtonUnchecked';
+import RadioButtonCheckedIcon from '@material-ui/icons/RadioButtonChecked';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormControl from '@material-ui/core/FormControl';
+import FormLabel from '@material-ui/core/FormLabel';
+
+import TableTabs from '../Layout/tabs/TableTabs';
 import TeamStats from './TeamStats';
 
 import './roster.css';
@@ -125,7 +134,19 @@ class Roster extends Component {
           Next
           <KeyboardArrowRight />
         </Button>
-        <TeamStats />
+        <div>
+          <FormControl component="fieldset" className={classes.formControl}>
+            <FormLabel component="legend">Quarter</FormLabel>
+            <RadioGroup aria-label="gender" name="gender1" className={classes.group} row>
+              <FormControlLabel value="female" control={<Radio />} label="All" />
+              <FormControlLabel value="female" control={<Radio />} label="1st" />
+              <FormControlLabel value="male" control={<Radio />} label="2nd" />
+              <FormControlLabel value="other" control={<Radio />} label="3rd" />
+              <FormControlLabel value="other" control={<Radio />} label="4th" />
+            </RadioGroup>
+          </FormControl>
+        </div>
+        <TableTabs />
       </div>
     );
   }

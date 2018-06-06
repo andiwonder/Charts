@@ -8,9 +8,12 @@
   },
   "author": "",
   "dependencies": {
+    "cheerio": "latest",
     "express": "latest",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
     "request": "latest",
-    "cheerio": "latest"
+    "sequelize": "^4.37.10"
   },
   "license": "ISC"
 }

@@ -57,6 +57,12 @@ const theme = createMuiTheme({
   }
 });
 
+const Scratch = () => {
+  return(
+    <h1>Hello</h1>
+  )
+}
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -76,7 +82,8 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={Teams} />
                 <Route exact path="/news" component={News} />
-                <Route exact path="/schedule" component={Schedule} />
+                <Route exact path="/teams/:name" component={Scratch} />
+                <Route exact path="/schedule/:name" component={Schedule} />
                 <Route exact path="/roster" component={Roster} />
               </Switch>
             </main>

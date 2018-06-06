@@ -9,6 +9,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
+import { Link } from 'react-router-dom';
+
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
@@ -199,7 +201,7 @@ function Teams(props) {
   const teamCards = teams.sort(compare).map(team => {
     return (
       <Grid item md={3}>
-        <Card className={classes.card}>
+        <Card className={classes.card} component={Link} to={"/schedule/" + team.alias}>
           <CardMedia
             className={classes.media}
             image={`/images/team_logos/${team.alias.toLowerCase()}.png`}

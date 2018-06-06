@@ -4,7 +4,7 @@ var request = require('request');
 var cheerio = require('cheerio');
 var app = express();
 
-url = 'http://www.espn.com/nba/team/roster/_/name/wsh';
+url = 'http://www.espn.com/nba/team/roster/_/name/nyk';
 let playersArr = [];
 
 var download = async function(uri, filename, callback) {
@@ -54,7 +54,7 @@ request(url, async function(error, response, html) {
 
     let imagesURL = `http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/${playerId}.png&w=350&h=254`;
 
-    download(imagesURL, `${playerName}.png`, function() {
+    download(imagesURL, `./sample/${playerName}.png`, function() {
       console.log('done');
     });
   });
