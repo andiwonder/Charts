@@ -27,7 +27,7 @@ const styles = theme => ({
     overflowX: 'auto'
   },
   table: {
-    minWidth: 700
+    // minWidth: 700
   },
   row: {
     '&:nth-of-type(odd)': {
@@ -41,51 +41,31 @@ class GritTable extends Component {
     const { classes } = this.props;
 
     return (
-      <Grid item md={12}>
+      <Grid item md={3}>
         <Paper className={classes.root}>
           <Table className={classes.table}>
             <TableHead>
               <TableRow>
                 <CustomTableCell>Energy</CustomTableCell>
-                <CustomTableCell numeric>steals</CustomTableCell>
-                <CustomTableCell numeric>blocks</CustomTableCell>
-                <CustomTableCell numeric>true_shooting_pct</CustomTableCell>
-                <CustomTableCell numeric>effective_fg_pct</CustomTableCell>
-                <CustomTableCell />
                 <CustomTableCell />
               </TableRow>
             </TableHead>
             <TableBody>
-              <TableRow className={classes.row} key={1}>
-                <CustomTableCell numeric />
+              <TableRow className={classes.row} key={'grits_table_1'}>
+                <CustomTableCell>steals</CustomTableCell>
                 <CustomTableCell numeric>1962</CustomTableCell>
+              </TableRow>
+              <TableRow className={classes.row} key={'grits_table_2'}>
+                <CustomTableCell>blocks</CustomTableCell>
                 <CustomTableCell numeric>1238</CustomTableCell>
+              </TableRow>
+              <TableRow className={classes.row} key={'grits_table_3'}>
+                <CustomTableCell>true shooting</CustomTableCell>
                 <CustomTableCell numeric>1.58</CustomTableCell>
+              </TableRow>
+              <TableRow className={classes.row} key={'grits_table_4'}>
+                <CustomTableCell>effective fg</CustomTableCell>
                 <CustomTableCell numeric>11th</CustomTableCell>
-                <CustomTableCell />
-                <CustomTableCell />
-              </TableRow>
-            </TableBody>
-            <TableHead>
-              <TableRow>
-                <CustomTableCell>Fouls</CustomTableCell>
-                <CustomTableCell numeric>personal fouls</CustomTableCell>
-                <CustomTableCell numeric>tech fouls</CustomTableCell>
-                <CustomTableCell numeric>flagrant fouls</CustomTableCell>
-                <CustomTableCell numeric>fouls drawn</CustomTableCell>
-                <CustomTableCell numeric />
-                <CustomTableCell numeric />
-              </TableRow>
-            </TableHead>
-            <TableBody>
-              <TableRow className={classes.row} key={1}>
-                <CustomTableCell component="th" scope="row" />
-                <CustomTableCell numeric>803</CustomTableCell>
-                <CustomTableCell numeric>2626</CustomTableCell>
-                <CustomTableCell numeric>3429</CustomTableCell>
-                <CustomTableCell numeric>24th</CustomTableCell>
-                <CustomTableCell numeric />
-                <CustomTableCell numeric />
               </TableRow>
             </TableBody>
           </Table>

@@ -2,151 +2,181 @@ export default [
   {
     name: 'Wizards',
     market: 'Washington',
-    alias: 'WAS'
+    alias: 'WAS',
+    id: '583ec8d4-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Hornets',
     market: 'Charlotte',
-    alias: 'CHA'
+    alias: 'CHA',
+    id: '583ec97e-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Hawks',
     market: 'Atlanta',
-    alias: 'ATL'
+    alias: 'ATL',
+    id: '583ecb8f-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Heat',
     market: 'Miami',
-    alias: 'MIA'
+    alias: 'MIA',
+    id: '583ecea6-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Magic',
     market: 'Orlando',
-    alias: 'ORL'
+    alias: 'ORL',
+    id: '583ed157-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Knicks',
     market: 'New York',
-    alias: 'NYK'
+    alias: 'NYK',
+    id: '583ec70e-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: '76ers',
     market: 'Philadelphia',
-    alias: 'PHI'
+    alias: 'PHI',
+    id: '583ec87d-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Nets',
     market: 'Brooklyn',
-    alias: 'BKN'
+    alias: 'BKN',
+    id: '583ec9d6-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Celtics',
     market: 'Boston',
-    alias: 'BOS'
+    alias: 'BOS',
+    id: '583eccfa-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Raptors',
     market: 'Toronto',
-    alias: 'TOR'
+    alias: 'TOR',
+    id: '583ecda6-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Bulls',
     market: 'Chicago',
-    alias: 'CHI'
+    alias: 'CHI',
+    id: '583ec5fd-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Cavaliers',
     market: 'Cleveland',
-    alias: 'CLE'
+    alias: 'CLE',
+    id: '583ec773-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Pacers',
     market: 'Indiana',
-    alias: 'IND'
+    alias: 'IND',
+    id: '583ec7cd-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Pistons',
     market: 'Detroit',
-    alias: 'DET'
+    alias: 'DET',
+    id: '583ec928-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Bucks',
     market: 'Milwaukee',
-    alias: 'MIL'
+    alias: 'MIL',
+    id: '583ecefd-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Timberwolves',
     market: 'Minnesota',
-    alias: 'MIN'
+    alias: 'MIN',
+    id: '583eca2f-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Jazz',
     market: 'Utah',
-    alias: 'UTA'
+    alias: 'UTA',
+    id: '583ece50-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Thunder',
     market: 'Oklahoma City',
-    alias: 'OKC'
+    alias: 'OKC',
+    id: '583ecfff-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Trail Blazers',
     market: 'Portland',
-    alias: 'POR'
+    alias: 'POR',
+    id: '583ed056-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Nuggets',
     market: 'Denver',
-    alias: 'DEN'
+    alias: 'DEN',
+    id: '583ed102-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Grizzlies',
     market: 'Memphis',
-    alias: 'MEM'
+    alias: 'MEM',
+    id: '583eca88-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Rockets',
     market: 'Houston',
-    alias: 'HOU'
+    alias: 'HOU',
+    id: '583ecb3a-fb46-11e1-82cb-f4ce4684ea4'
   },
   {
     name: 'Pelicans',
     market: 'New Orleans',
-    alias: 'NOP'
+    alias: 'NOP',
+    id: '583ecc9a-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Spurs',
     market: 'San Antonio',
-    alias: 'SAS'
+    alias: 'SAS',
+    id: '583ecd4f-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Mavericks',
     market: 'Dallas',
-    alias: 'DAL'
+    alias: 'DAL',
+    id: '583ecf50-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Warriors',
     market: 'Golden State',
-    alias: 'GSW'
+    alias: 'GSW',
+    id: '583ec825-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Lakers',
     market: 'Los Angeles',
-    alias: 'LAL'
+    alias: 'LAL',
+    id: '583ecae2-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Clippers',
     market: 'Los Angeles',
-    alias: 'LAC'
+    alias: 'LAC',
+    id: '583ecdfb-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Suns',
     market: 'Phoenix',
-    alias: 'PHX'
+    alias: 'PHX',
+    id: '583ecfa8-fb46-11e1-82cb-f4ce4684ea4c'
   },
   {
     name: 'Kings',
     market: 'Sacramento',
-    alias: 'SAC'
+    alias: 'SAC',
+    id: '583ed0ac-fb46-11e1-82cb-f4ce4684ea4c'
   }
 ];

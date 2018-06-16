@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
+// import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
@@ -13,14 +13,17 @@ import Typography from '@material-ui/core/Typography';
 
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
-import RadioButtonUncheckedIcon from '@material-ui/icons/RadioButtonUnchecked';
-import RadioButtonCheckedIcon from '@material-ui/icons/RadioButtonChecked';
+// import RadioButtonUncheckedIcon from '@material-ui/icons/RadioButtonUnchecked';
+// import RadioButtonCheckedIcon from '@material-ui/icons/RadioButtonChecked';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 
-import TableTabs from '../Layout/tabs/TableTabs';
+// import TableTabs from '../Layout/tabs/TableTabs';
 import TeamStats from './TeamStats';
+
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css/animate.min.css';
 
 import './roster.css';
 
@@ -61,74 +64,82 @@ class Roster extends Component {
           Prev
         </Button>
         <div className="player__card__container">
-          <Card className={classes.player__card}>
-            <CardMedia className={classes.media} image="/images/player/gsw/stephen.png" title="Contemplative Reptile" />
-            <CardContent className="player__card__text">
-              <Typography className={classes.title} component="h4">
-                Stephen Curry
-              </Typography>
-            </CardContent>
-          </Card>
-          <Card className={classes.player__card}>
-            <CardMedia
-              className={classes.media}
-              image="/images/player/gsw/quinn_cook.png"
-              title="Contemplative Reptile"
-            />
-            <CardContent className="player__card__text">
-              <Typography className={classes.title} component="h4">
-                Quinn<br />Cook
-              </Typography>
-            </CardContent>
-          </Card>
-          <Card className={classes.player__card}>
-            <CardMedia
-              className={classes.media}
-              image="/images/player/gsw/jordan_bell.png"
-              title="Contemplative Reptile"
-            />
-            <CardContent className="player__card__text">
-              <Typography className={classes.title} component="h4">
-                Jordan<br />Bell
-              </Typography>
-            </CardContent>
-          </Card>
-          <Card className={classes.player__card}>
-            <CardMedia
-              className={classes.media}
-              image="/images/player/gsw/klay_thompson.png"
-              title="Contemplative Reptile"
-            />
-            <CardContent className="player__card__text">
-              <Typography className={classes.title} component="h4">
-                Klay<br />Thompson
-              </Typography>
-            </CardContent>
-          </Card>
-          <Card className={classes.player__card}>
-            <CardMedia
-              className={classes.media}
-              image="/images/player/gsw/draymond_green.png"
-              title="Contemplative Reptile"
-            />
-            <CardContent className="player__card__text">
-              <Typography className={classes.title} component="h4">
-                Draymond<br />Green
-              </Typography>
-            </CardContent>
-          </Card>
-          <Card className={classes.player__card}>
-            <CardMedia
-              className={classes.media}
-              image="/images/player/gsw/kevin_durant.png"
-              title="Contemplative Reptile"
-            />
-            <CardContent className="player__card__text">
-              <Typography className={classes.title} component="h4">
-                Kevin<br />Durant
-              </Typography>
-            </CardContent>
-          </Card>
+          <ScrollAnimation animateIn="zoomIn" duration={1} animateOnce={true}>
+            <Card className={classes.player__card}>
+              <CardMedia
+                className={classes.media}
+                image="/images/player/gsw/stephen.png"
+                title="Contemplative Reptile"
+              />
+              <CardContent className="player__card__text">
+                <Typography className={classes.title} component="h4">
+                  Stephen Curry
+                </Typography>
+              </CardContent>
+            </Card>
+
+            <Card className={classes.player__card}>
+              <CardMedia
+                className={classes.media}
+                image="/images/player/gsw/quinn_cook.png"
+                title="Contemplative Reptile"
+              />
+              <CardContent className="player__card__text">
+                <Typography className={classes.title} component="h4">
+                  Quinn<br />Cook
+                </Typography>
+              </CardContent>
+            </Card>
+
+            <Card className={classes.player__card}>
+              <CardMedia
+                className={classes.media}
+                image="/images/player/gsw/jordan_bell.png"
+                title="Contemplative Reptile"
+              />
+              <CardContent className="player__card__text">
+                <Typography className={classes.title} component="h4">
+                  Jordan<br />Bell
+                </Typography>
+              </CardContent>
+            </Card>
+            <Card className={classes.player__card}>
+              <CardMedia
+                className={classes.media}
+                image="/images/player/gsw/klay_thompson.png"
+                title="Contemplative Reptile"
+              />
+              <CardContent className="player__card__text">
+                <Typography className={classes.title} component="h4">
+                  Klay<br />Thompson
+                </Typography>
+              </CardContent>
+            </Card>
+            <Card className={classes.player__card}>
+              <CardMedia
+                className={classes.media}
+                image="/images/player/gsw/draymond_green.png"
+                title="Contemplative Reptile"
+              />
+              <CardContent className="player__card__text">
+                <Typography className={classes.title} component="h4">
+                  Draymond<br />Green
+                </Typography>
+              </CardContent>
+            </Card>
+            <Card className={classes.player__card}>
+              <CardMedia
+                className={classes.media}
+                image="/images/player/gsw/kevin_durant.png"
+                title="Contemplative Reptile"
+              />
+              <CardContent className="player__card__text">
+                <Typography className={classes.title} component="h4">
+                  Kevin<br />Durant
+                </Typography>
+              </CardContent>
+            </Card>
+          </ScrollAnimation>
         </div>
         <Button variant="outlined" size="small" style={{ verticalAlign: 'top', marginTop: '3em', padding: '4px 16px' }}>
           Next
@@ -146,7 +157,8 @@ class Roster extends Component {
             </RadioGroup>
           </FormControl>
         </div>
-        <TableTabs />
+        {/*<TableTabs />*/}
+        <TeamStats />
       </div>
     );
   }

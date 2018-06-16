@@ -13,12 +13,20 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 /** ------------Custom components--------- */
 // for layout
 import SideBar from './components/Layout/sidebar/SideBar';
+import SideBar2 from './components/Layout/sidebar/SideBar2';
 import Header from './components/Layout/header/Header';
+
 // Teams
 import Teams from './components/Team/Teams';
 import News from './components/News/News';
 import Schedule from './components/Team/Schedule';
 import Roster from './components/Team/Roster';
+import Charts from './components/Charts/Charts';
+
+// SeasonalStats
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import { getSeasonalStanding } from './actions/index';
 
 const styles = theme => ({
   root: {
@@ -58,15 +66,34 @@ const theme = createMuiTheme({
 });
 
 const Scratch = () => {
-  return(
-    <h1>Hello</h1>
-  )
-}
+  return <h1>Hello</h1>;
+};
 
 class App extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      left: false
+    };
+    this.toggleDrawer = this.toggleDrawer.bind(this);
+    this.handleDrawerOpen = this.handleDrawerOpen.bind(this);
   }
+
+  componentWillMount() {
+    this.props.getSeasonalStanding();
+  }
+
+  handleDrawerOpen() {
+    this.setState({
+      left: true
+    });
+  }
+
+  toggleDrawer = open => () => {
+    this.setState({
+      left: open
+    });
+  };
 
   render() {
     const { classes } = this.props;
@@ -75,8 +102,8 @@ class App extends Component {
       <Router>
         <MuiThemeProvider theme={theme}>
           <div className={classes.root}>
-            <Header />
-            <SideBar />
+            <Header handleDrawerOpen={this.handleDrawerOpen} />
+            <SideBar2 toggleDrawer={this.toggleDrawer} open={this.state.left} />
             <main className={classes.content}>
               <div className={classes.toolbar} />
               <Switch>
@@ -85,6 +112,7 @@ class App extends Component {
                 <Route exact path="/teams/:name" component={Scratch} />
                 <Route exact path="/schedule/:name" component={Schedule} />
                 <Route exact path="/roster" component={Roster} />
+                <Route exact path="/charts" component={Charts} />
               </Switch>
             </main>
           </div>
@@ -94,4 +122,8 @@ class App extends Component {
   }
 }
 
-export default withStyles(styles)(App);
+function mapDispatchToProps(dispatch) {
+  return bindActionCreators({ getSeasonalStanding }, dispatch);
+}
+
+export default connect(null, mapDispatchToProps)(withStyles(styles)(App));

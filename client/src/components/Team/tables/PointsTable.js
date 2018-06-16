@@ -27,7 +27,7 @@ const styles = theme => ({
     overflowX: 'auto'
   },
   table: {
-    minWidth: 700
+    // minWidth: 700
   },
   row: {
     '&:nth-of-type(odd)': {
@@ -41,7 +41,7 @@ class PointsTable extends Component {
     const { classes } = this.props;
 
     return (
-      <Grid item md={12} style={{ marginBottom: '2em' }}>
+      <Grid item md={7} style={{ marginBottom: '2em' }}>
         <Paper className={classes.root}>
           <Table className={classes.table}>
             <TableHead>
@@ -51,46 +51,36 @@ class PointsTable extends Component {
                 <CustomTableCell numeric>2pt</CustomTableCell>
                 <CustomTableCell numeric>3pt</CustomTableCell>
                 <CustomTableCell numeric>Ft</CustomTableCell>
-                <CustomTableCell />
-                <CustomTableCell />
               </TableRow>
             </TableHead>
             <TableBody>
-              <TableRow className={classes.row} key={1}>
+              <TableRow className={classes.row} key={'points_table_1'}>
                 <CustomTableCell>Attempted</CustomTableCell>
                 <CustomTableCell numeric>7603</CustomTableCell>
                 <CustomTableCell numeric>5218</CustomTableCell>
                 <CustomTableCell numeric>1845</CustomTableCell>
                 <CustomTableCell numeric>1980</CustomTableCell>
-                <CustomTableCell numeric />
-                <CustomTableCell numeric />
               </TableRow>
-              <TableRow className={classes.row} key={1}>
+              <TableRow className={classes.row} key={'points_table_2'}>
                 <CustomTableCell>Made</CustomTableCell>
                 <CustomTableCell numeric>3365</CustomTableCell>
                 <CustomTableCell numeric>2707</CustomTableCell>
                 <CustomTableCell numeric>658</CustomTableCell>
                 <CustomTableCell numeric>1592</CustomTableCell>
-                <CustomTableCell numeric />
-                <CustomTableCell numeric />
               </TableRow>
-              <TableRow className={classes.row} key={1}>
+              <TableRow className={classes.row} key={'points_table_3'}>
                 <CustomTableCell>Percentage</CustomTableCell>
                 <CustomTableCell numeric>47.6%</CustomTableCell>
                 <CustomTableCell numeric>51.9%</CustomTableCell>
                 <CustomTableCell numeric>35.7%</CustomTableCell>
                 <CustomTableCell numeric>80.4%</CustomTableCell>
-                <CustomTableCell numeric />
-                <CustomTableCell numeric />
               </TableRow>
-              <TableRow className={classes.row} key={1}>
+              <TableRow className={classes.row} key={'points_table_4'}>
                 <CustomTableCell>Rank</CustomTableCell>
                 <CustomTableCell numeric>13</CustomTableCell>
                 <CustomTableCell numeric>15</CustomTableCell>
                 <CustomTableCell numeric>21</CustomTableCell>
                 <CustomTableCell numeric>24</CustomTableCell>
-                <CustomTableCell numeric />
-                <CustomTableCell numeric />
               </TableRow>
             </TableBody>
           </Table>

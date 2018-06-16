@@ -27,7 +27,7 @@ const styles = theme => ({
     overflowX: 'auto'
   },
   table: {
-    minWidth: 700
+    // minWidth: 700
   },
   row: {
     '&:nth-of-type(odd)': {
@@ -41,51 +41,31 @@ class HustleTable extends Component {
     const { classes } = this.props;
 
     return (
-      <Grid item md={12}>
+      <Grid item md={3}>
         <Paper className={classes.root}>
           <Table className={classes.table}>
             <TableHead>
               <TableRow>
                 <CustomTableCell>TeamPlay</CustomTableCell>
-                <CustomTableCell numeric>assists</CustomTableCell>
-                <CustomTableCell numeric>turnovers</CustomTableCell>
-                <CustomTableCell numeric>ratio</CustomTableCell>
-                <CustomTableCell numeric>rank</CustomTableCell>
-                <CustomTableCell />
                 <CustomTableCell />
               </TableRow>
             </TableHead>
             <TableBody>
-              <TableRow className={classes.row} key={1}>
-                <CustomTableCell numeric />
+              <TableRow className={classes.row} key={'hustle_table_1'}>
+                <CustomTableCell>assists</CustomTableCell>
                 <CustomTableCell numeric>1962</CustomTableCell>
+              </TableRow>
+              <TableRow className={classes.row} key={'hustle_table_2'}>
+                <CustomTableCell>turnovers</CustomTableCell>
                 <CustomTableCell numeric>1238</CustomTableCell>
+              </TableRow>
+              <TableRow className={classes.row} key={'hustle_table_3'}>
+                <CustomTableCell>ratio</CustomTableCell>
                 <CustomTableCell numeric>1.58</CustomTableCell>
+              </TableRow>
+              <TableRow className={classes.row} key={'hustle_table_4'}>
+                <CustomTableCell>rank</CustomTableCell>
                 <CustomTableCell numeric>11th</CustomTableCell>
-                <CustomTableCell />
-                <CustomTableCell />
-              </TableRow>
-            </TableBody>
-            <TableHead>
-              <TableRow>
-                <CustomTableCell>Rebounds</CustomTableCell>
-                <CustomTableCell numeric>Offensive</CustomTableCell>
-                <CustomTableCell numeric>Defensive</CustomTableCell>
-                <CustomTableCell numeric>Total</CustomTableCell>
-                <CustomTableCell numeric>rank</CustomTableCell>
-                <CustomTableCell numeric />
-                <CustomTableCell numeric />
-              </TableRow>
-            </TableHead>
-            <TableBody>
-              <TableRow className={classes.row} key={1}>
-                <CustomTableCell component="th" scope="row" />
-                <CustomTableCell numeric>803</CustomTableCell>
-                <CustomTableCell numeric>2626</CustomTableCell>
-                <CustomTableCell numeric>3429</CustomTableCell>
-                <CustomTableCell numeric>24th</CustomTableCell>
-                <CustomTableCell numeric />
-                <CustomTableCell numeric />
               </TableRow>
             </TableBody>
           </Table>

@@ -54,46 +54,43 @@ const Game = props => {
 
   //date
 
-  // home_team_alias
+  // homeTeamAlias
   // home_team_mark
   // home_team_name
-  // home_team__score
+  // homePoints
 
-  // away_team_alias
+  // awayTeamAlias
   // away_team_mark
   // away_team_name
-  // away_team__score
+  // awayPoints
 
   const { date } = props;
   const formattedDate = date.substring(0, date.indexOf('T') - 1);
 
   // IF BACKEND WAS CORRECT, I WOULD USED THIS
-  // const { home_team_name, home_team_mark, home_team_alias, home_team__score } = props;
-  // const { away_team_name, away_team_mark, away_team_alias, away_team__score } = props;
+  // const { home_team_name, home_team_mark, homeTeamAlias, homePoints } = props;
+  // const { away_team_name, away_team_mark, awayTeamAlias, awayPoints } = props;
 
   // Messed up back-end and didnt include name, hand to filter out name by alias
-  const { home_team_alias, home_team__score } = props;
+  const { homeTeamAlias, homePoints } = props;
   var current_home_team = listOfTeams.filter(function(team) {
-    return team.alias == home_team_alias;
+    return team.alias == homeTeamAlias;
   });
   const home_team_name = current_home_team[0].name;
 
   // Messed up back-end and didnt include name, hand to filter out name by alias
-  const { away_team_alias, away_team__score } = props;
+  const { awayTeamAlias, awayPoints } = props;
   var current_away_team = listOfTeams.filter(function(team) {
-    return team.alias == away_team_alias;
+    return team.alias == awayTeamAlias;
   });
-  console.log(current_away_team);
   const away_team_name = current_away_team[0].name;
 
   const { classes } = props;
 
   // get bar widths
-  const home_team__score_int = parseInt(home_team__score, 10);
-  const away_team__score_int = parseInt(away_team__score, 10);
-  const home_team_bar = Math.round(
-    home_team__score_int / (home_team__score_int + away_team__score_int) * 100 * 100 / 100
-  );
+  const homePoints_int = parseInt(homePoints, 10);
+  const awayPoints_int = parseInt(awayPoints, 10);
+  const home_team_bar = Math.round(homePoints_int / (homePoints_int + awayPoints_int) * 100 * 100 / 100);
   const away_team_bar = 100 - home_team_bar;
   const home_team_bar_string = home_team_bar.toString() + '%';
   const away_team_bar_string = away_team_bar.toString() + '%';
@@ -109,7 +106,7 @@ const Game = props => {
         <Paper elevation={1} className={classes.game__team__paper}>
           <div className={classes.game__team__container}>
             <img
-              src={'/images/team_logos/' + home_team_alias + '.png'}
+              src={'/images/team_logos/' + homeTeamAlias.toLowerCase() + '.png'}
               alt=""
               className={classes.game__team__logo__img}
             />
@@ -118,12 +115,12 @@ const Game = props => {
             <div className={classes.game__team__score__text}>
               <div className={classes.game__team__score}>
                 <Typography variant="body2" component="h4" noWrap>
-                  {`${home_team_name} - ${home_team__score}`}
+                  {`${home_team_name} - ${homePoints}`}
                 </Typography>
               </div>
               <div className={(classes.game__team__score, classes.game__team__away)}>
                 <Typography variant="body2" component="h4" noWrap>
-                  {`${away_team__score} - ${away_team_name} `}
+                  {`${awayPoints} - ${away_team_name} `}
                 </Typography>
               </div>
             </div>
@@ -134,7 +131,7 @@ const Game = props => {
           </div>
           <div className={classes.game__team__container}>
             <img
-              src={'/images/team_logos/' + away_team_alias + '.png'}
+              src={'/images/team_logos/' + awayTeamAlias.toLowerCase() + '.png'}
               alt=""
               className={classes.game__team__logo__img}
             />

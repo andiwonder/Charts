@@ -1,29 +1,33 @@
 import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
+// import Paper from '@material-ui/core/Paper';
+// import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 
 import PointsTable from './tables/PointsTable';
+import ReboundsTable from './tables/ReboundsTable';
 import PointsTypeTable from './tables/PointsTypeTable';
 import HustleTable from './tables/HustleTable';
 import GritTable from './tables/GritTable';
+import FoulsTable from './tables/FoulsTable';
 
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
+// import TableFields from './tables/TableFields';
 
-const CustomTableCell = withStyles(theme => ({
-  head: {
-    backgroundColor: theme.palette.common.black,
-    color: theme.palette.common.white
-  },
-  body: {
-    fontSize: 14
-  }
-}))(TableCell);
+// import Table from '@material-ui/core/Table';
+// import TableBody from '@material-ui/core/TableBody';
+// import TableCell from '@material-ui/core/TableCell';
+// import TableHead from '@material-ui/core/TableHead';
+// import TableRow from '@material-ui/core/TableRow';
+
+// const CustomTableCell = withStyles(theme => ({
+//   head: {
+//     backgroundColor: theme.palette.common.black,
+//     color: theme.palette.common.white
+//   },
+//   body: {
+//     fontSize: 14
+//   }
+// }))(TableCell);
 
 const styles = theme => ({
   root: {
@@ -47,14 +51,14 @@ const styles = theme => ({
 
 class TeamStats extends Component {
   render() {
-    const { classes } = this.props;
-
     return (
       <Grid container spacing={24} style={{ marginLeft: '0px', marginTop: '2em' }}>
         <PointsTable />
         <PointsTypeTable />
         <HustleTable />
+        <ReboundsTable />
         <GritTable />
+        <FoulsTable />
       </Grid>
     );
   }

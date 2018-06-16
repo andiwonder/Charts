@@ -1,0 +1,36 @@
+.line {
+  fill: none;
+  stroke: #f83c4d;
+  stroke-width: 5px;
+}
+
+.awayline {
+  fill: none;
+  stroke: #4f88fb;
+  stroke-width: 5px;
+}
+
+.axis {
+  fill: #bbc7d9;
+  opacity: 1;
+}
+
+.axis path {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.axis line {
+  fill: none;
+  shape-rendering: crispEdges;
+}
+
+.axis .awayline {
+  fill: none;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-size: 14px;
+}

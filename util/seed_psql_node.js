@@ -51,9 +51,10 @@ var Game = sequelize.define('game', {
 var schedule_json_data = JSON.parse(fs.readFileSync('./data/schedule.json', 'utf8'));
 
 schedule_json_data.games.map(game => {
+  console.log(game.id);
   let newObj = {};
   newObj['date'] = game.scheduled;
-  newObj['game_id'] = game.id;
+  newObj['api_game_id'] = game.id;
   newObj['home_team_id'] = game.home.id;
   newObj['home_team_alias'] = game.home.alias;
   newObj['home_points'] = game.home_points;

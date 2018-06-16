@@ -1,0 +1,11 @@
+.timeline-Header {
+  display: none;
+}
+
+.timeline-Footer {
+  display: none;
+}
+
+div.timeline-Header.timeline-InformationCircle-widgetParent {
+  display: none;
+}

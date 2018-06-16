@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
+// import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import Button from '@material-ui/core/Button';
 import Icon from '@material-ui/core/Icon';
 import IconButton from '@material-ui/core/IconButton';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
+
+import './news.css';
 
 const styles = theme => ({
   main__article: {
@@ -69,10 +72,6 @@ const styles = theme => ({
 });
 
 class News extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { classes } = this.props;
 
@@ -108,6 +107,7 @@ class News extends Component {
                 <Icon>star</Icon>
               </IconButton>
             </div>
+            <TwitterTimelineEmbed sourceType="profile" screenName="warriors" options={{ width: '100%', height: 600 }} />
           </div>
         </div>
         <div className={classes.side__articles__container}>

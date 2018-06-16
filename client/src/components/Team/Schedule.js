@@ -9,35 +9,39 @@ import MobileStepper from '@material-ui/core/MobileStepper';
 import Button from '@material-ui/core/Button';
 import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
+import FormGroup from '@material-ui/core/FormGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Switch from '@material-ui/core/Switch';
 
 // Custom components
 import TeamStats from './TeamStats';
 import GameMenu from './menu/GameMenu';
 import Game from './game/Game';
+import SeasonalStanding from './SeasonalStanding/SeasonalStanding';
+import DonutShow from '../Charts/DonutShow';
+import LineShow from '../Charts/LineShow';
 
 //Redux Stuff
 import { connect } from 'react-redux';
-import { selectTeam } from '../../actions/index';
-import { bindActionCreators } from 'redux';
 
 const styles = theme => ({
   game__team__main__container: {
-    display: 'inline-block',
-    marginLeft: '.66%',
-    width: '53.33%'
+    display: 'block',
+    margin: '0 auto',
+    width: '60%'
   },
   game__team__away: {
     float: 'right'
   },
-  game__team__stats__box__container: {
-    display: 'inline-block',
-    width: '40%',
-    marginLeft: '6%',
-    verticalAlign: 'top'
+  graph__switch: {
+    justifyContent: 'flex-end'
   },
-  game__team__stats__box: {
-    padding: '1em',
-    marginBottom: '4.25em'
+  switch__label: {
+    paddingTop: '0.9em',
+    marginRight: '1em',
+    fontSize: '0.875rem',
+    fontWeight: 400,
+    color: 'rgba(0, 0, 0, 0.87)'
   }
 });
 
@@ -45,31 +49,36 @@ class Schedule extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeStep: 0
+      activeStep: 0,
+      standingGraph: false,
+      statsGraph: false
     };
     this.handleNext = this.handleNext.bind(this);
     this.handleBack = this.handleBack.bind(this);
+    this.handleSwitchChange = this.handleSwitchChange.bind(this);
   }
+
+  handleSwitchChange = name => event => {
+    this.setState({ ...this.state, [name]: event.target.checked });
+  };
 
   handleNext = () => {
     const maxSteps = Math.ceil(this.props.schedule.length / 5);
-    if (this.state.activeStep == maxSteps - 1) {
+    if (this.state.activeStep === maxSteps - 1) {
       return;
     }
     this.setState(prevState => ({
       activeStep: prevState.activeStep + 1
     }));
-    console.log(this.state.activeStep);
   };
 
   handleBack = () => {
-    if (this.state.activeStep == 0) {
+    if (this.state.activeStep === 0) {
       return;
     }
     this.setState(prevState => ({
       activeStep: prevState.activeStep - 1
     }));
-    console.log(this.state.activeStep);
   };
 
   render() {
@@ -86,10 +95,24 @@ class Schedule extends Component {
           <Typography variant="display3" style={{ display: 'inline-block' }} component="h1" paragraph>
             Games
           </Typography>
-          <GameMenu />
         </div>
         <Grid container spacing={8} className={classes.game__team__main__container}>
-          <Grid md={12} item>
+          <Grid item md={12}>
+            <FormGroup row className={classes.graph__switch}>
+              <label className={classes.switch__label}>Text</label>
+              <FormControlLabel
+                control={
+                  <Switch
+                    checked={this.state.checkedA}
+                    onChange={this.handleSwitchChange('checkedA')}
+                    value="checkedA"
+                  />
+                }
+                label="Graph"
+              />
+            </FormGroup>
+          </Grid>
+          <Grid item md={12} item style={{ marginBottom: '1em' }}>
             <Typography
               variant="subheading"
               style={{ display: 'inline-block', backgroundColor: '#B1D5FB', padding: '4px' }}
@@ -105,7 +128,7 @@ class Schedule extends Component {
             </Typography>
           </Grid>
           {games}
-          <Grid item md={12} style={{ padding: '12px 12px 12px 0' }}>
+          <Grid item md={12} style={{ padding: '12px 12px 12px 0', marginBottom: '2em' }}>
             <MobileStepper
               variant="text"
               steps={5}
@@ -128,59 +151,60 @@ class Schedule extends Component {
             />
           </Grid>
         </Grid>
-        <Grid container className={classes.game__team__stats__box__container}>
-          <Grid item md={12}>
-            <Paper className={classes.game__team__stats__box} elevation={4}>
-              <div>
-                <Typography variant="caption" style={{ display: 'inline-block' }}>
-                  Wins / Loss
-                </Typography>
-                <Typography variant="headline" style={{ display: 'inline-block', color: '#03A9F4', float: 'right' }}>
-                  5th
-                </Typography>
-                <Typography
-                  variant="display1"
-                  style={{ marginTop: '.5em', fontWeight: 700, textAlign: 'center', color: 'rgba(0,0,0,.87)' }}
-                >
-                  <span style={{ color: '#8BC34A' }}>61</span> / <span style={{ color: '#F44336' }}>20</span>
-                </Typography>
-              </div>
-            </Paper>
-            <Paper className={classes.game__team__stats__box} elevation={4}>
-              <div>
-                <Typography variant="caption" style={{ display: 'inline-block' }}>
-                  Average points per game
-                </Typography>
-                <Typography variant="headline" style={{ display: 'inline-block', color: '#03A9F4', float: 'right' }}>
-                  11th
-                </Typography>
-                <Typography
-                  variant="display1"
-                  style={{ marginTop: '.5em', fontWeight: 700, textAlign: 'center', color: 'rgba(0,0,0,.87)' }}
-                >
-                  101.21
-                </Typography>
-              </div>
-            </Paper>
-            <Paper className={classes.game__team__stats__box} elevation={4}>
-              <div>
-                <Typography variant="caption" style={{ display: 'inline-block' }}>
-                  Opp Average points per game
-                </Typography>
-                <Typography variant="headline" style={{ display: 'inline-block', color: '#03A9F4', float: 'right' }}>
-                  6th
-                </Typography>
-                <Typography
-                  variant="display1"
-                  style={{ marginTop: '.5em', fontWeight: 700, textAlign: 'center', color: 'rgba(0,0,0,.87)' }}
-                >
-                  89
-                </Typography>
-              </div>
-            </Paper>
+        <Grid container style={{ marginBottom: '1em' }} justifyContent="space-around">
+          <Grid item md={6} style={{ marginBottom: '2em' }}>
+            <Typography variant="display3" style={{ display: 'inline-block' }} component="h1" paragraph>
+              Standing
+            </Typography>
+          </Grid>
+          <Grid item md={4} style={{ marginBottom: '2em' }}>
+            <FormGroup row className={classes.graph__switch}>
+              <label className={classes.switch__label}>Text</label>
+              <FormControlLabel
+                control={
+                  <Switch
+                    checked={this.state.standingGraph}
+                    onChange={this.handleSwitchChange('standingGraph')}
+                    value="standingGraph"
+                  />
+                }
+                label="Graph"
+              />
+            </FormGroup>
+          </Grid>
+          {!this.state.standingGraph ? (
+            <div style={{ width: '100%' }}>
+              <SeasonalStanding />
+              <SeasonalStanding />
+              <SeasonalStanding />
+            </div>
+          ) : (
+            <DonutShow />
+          )}
+          <Grid item md={6} style={{ marginBottom: '0' }}>
+            <Typography variant="display3" style={{ display: 'inline-block' }} component="h1" paragraph>
+              Stats
+            </Typography>
+          </Grid>
+          <Grid item md={4} style={{ marginBottom: '2em' }}>
+            <FormGroup row className={classes.graph__switch}>
+              <label className={classes.switch__label}>Text</label>
+              <FormControlLabel
+                control={
+                  <Switch
+                    checked={this.state.statsGraph}
+                    onChange={this.handleSwitchChange('statsGraph')}
+                    value="statsGraph"
+                  />
+                }
+                label="Graph"
+              />
+            </FormGroup>
+          </Grid>
+          <Grid item md={12} style={{ marginBottom: '2em' }}>
+            {!this.state.statsGraph ? <TeamStats /> : <LineShow />}
           </Grid>
         </Grid>
-        <TeamStats />
       </div>
     );
   }

@@ -1,0 +1,1447 @@
+[
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 2,
+    "awayTeamScore": 0,
+    "clock": "11:36",
+    "description": "Darren Collison makes two point reverse layup",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 2,
+    "awayTeamScore": 1,
+    "clock": "11:19",
+    "description": "Rondae Hollis-Jefferson makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 2,
+    "awayTeamScore": 3,
+    "clock": "11:19",
+    "description": "Rondae Hollis-Jefferson makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 2,
+    "awayTeamScore": 5,
+    "clock": "10:52",
+    "description": "DeMarre Carroll makes two point jump shot (Rondae Hollis-Jefferson assists)",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 4,
+    "awayTeamScore": 5,
+    "clock": "10:31",
+    "description": "Victor Oladipo makes two point step back jump shot",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 6,
+    "awayTeamScore": 5,
+    "clock": "10:11",
+    "description": "Victor Oladipo makes two point dunk",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 6,
+    "awayTeamScore": 8,
+    "clock": "9:58",
+    "description": "D'Angelo Russell makes three point jump shot (Jeremy Lin assists)",
+    "event_type": "threepointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 6,
+    "awayTeamScore": 10,
+    "clock": "9:30",
+    "description": "Rondae Hollis-Jefferson makes two point jump shot (DeMarre Carroll assists)",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 9,
+    "awayTeamScore": 10,
+    "clock": "9:13",
+    "description": "Myles Turner makes three point jump shot (Darren Collison assists)",
+    "event_type": "threepointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 11,
+    "awayTeamScore": 10,
+    "clock": "8:47",
+    "description": "Darren Collison makes two point finger roll layup",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 11,
+    "awayTeamScore": 12,
+    "clock": "8:30",
+    "description": "D'Angelo Russell makes two point finger roll layup (DeMarre Carroll assists)",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 12,
+    "awayTeamScore": 12,
+    "clock": "8:24",
+    "description": "Victor Oladipo makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 14,
+    "awayTeamScore": 12,
+    "clock": "8:24",
+    "description": "Victor Oladipo makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 15,
+    "awayTeamScore": 12,
+    "clock": "8:10",
+    "description": "Victor Oladipo makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 15,
+    "awayTeamScore": 14,
+    "clock": "7:39",
+    "description": "Jeremy Lin makes two point driving layup",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 18,
+    "awayTeamScore": 14,
+    "clock": "7:06",
+    "description": "Victor Oladipo makes three point jump shot (Darren Collison assists)",
+    "event_type": "threepointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 18,
+    "awayTeamScore": 17,
+    "clock": "6:42",
+    "description": "D'Angelo Russell makes three point jump shot",
+    "event_type": "threepointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 20,
+    "awayTeamScore": 17,
+    "clock": "6:14",
+    "description": "Darren Collison makes two point layup (Myles Turner assists)",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 21,
+    "awayTeamScore": 17,
+    "clock": "5:17",
+    "description": "Victor Oladipo makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 23,
+    "awayTeamScore": 17,
+    "clock": "5:17",
+    "description": "Victor Oladipo makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 25,
+    "awayTeamScore": 17,
+    "clock": "4:58",
+    "description": "Thaddeus Young makes two point jump shot (Darren Collison assists)",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 25,
+    "awayTeamScore": 19,
+    "clock": "4:43",
+    "description": "Trevor Booker makes two point putback layup",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 27,
+    "awayTeamScore": 19,
+    "clock": "4:34",
+    "description": "Myles Turner makes two point driving dunk (Victor Oladipo assists)",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 27,
+    "awayTeamScore": 22,
+    "clock": "4:14",
+    "description": "Allen Crabbe makes three point jump shot (Jeremy Lin assists)",
+    "event_type": "threepointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 29,
+    "awayTeamScore": 22,
+    "clock": "3:49",
+    "description": "Myles Turner makes two point jump shot (Cory Joseph assists)",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 29,
+    "awayTeamScore": 24,
+    "clock": "3:36",
+    "description": "Trevor Booker makes two point layup (Caris LeVert assists)",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 29,
+    "awayTeamScore": 25,
+    "clock": "3:36",
+    "description": "Trevor Booker makes regular free throw 1 of 1",
+    "event_type": "freethrowmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 29,
+    "awayTeamScore": 27,
+    "clock": "2:47",
+    "description": "Allen Crabbe makes two point driving dunk (Spencer Dinwiddie assists)",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 31,
+    "awayTeamScore": 27,
+    "clock": "1:35",
+    "description": "Domantas Sabonis makes two point putback layup",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 31,
+    "awayTeamScore": 28,
+    "clock": "00:39",
+    "description": "Trevor Booker makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 31,
+    "awayTeamScore": 30,
+    "clock": "00:39",
+    "description": "Trevor Booker makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 31,
+    "awayTeamScore": 32,
+    "clock": "00:27",
+    "description": "Caris LeVert makes two point dunk (Spencer Dinwiddie assists)",
+    "event_type": "twopointmade",
+    "quarter": 1
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 33,
+    "awayTeamScore": 32,
+    "clock": "11:31",
+    "description": "Domantas Sabonis makes two point hook shot (Lance Stephenson assists)",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 35,
+    "awayTeamScore": 32,
+    "clock": "11:15",
+    "description": "Domantas Sabonis makes two point finger roll layup (Cory Joseph assists)",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 37,
+    "awayTeamScore": 32,
+    "clock": "10:49",
+    "description": "Lance Stephenson makes two point driving layup",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 37,
+    "awayTeamScore": 34,
+    "clock": "10:25",
+    "description": "Timofey Mozgov makes two point putback layup",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 38,
+    "awayTeamScore": 34,
+    "clock": "10:17",
+    "description": "Lance Stephenson makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 38,
+    "awayTeamScore": 36,
+    "clock": "9:53",
+    "description": "D'Angelo Russell makes two point reverse layup (Spencer Dinwiddie assists)",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 41,
+    "awayTeamScore": 36,
+    "clock": "9:38",
+    "description": "Lance Stephenson makes three point step back jump shot",
+    "event_type": "threepointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 41,
+    "awayTeamScore": 38,
+    "clock": "9:29",
+    "description": "D'Angelo Russell makes two point jump shot",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 42,
+    "awayTeamScore": 38,
+    "clock": "9:16",
+    "description": "Domantas Sabonis makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 44,
+    "awayTeamScore": 38,
+    "clock": "9:16",
+    "description": "Domantas Sabonis makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 44,
+    "awayTeamScore": 39,
+    "clock": "9:10",
+    "description": "Rondae Hollis-Jefferson makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 44,
+    "awayTeamScore": 41,
+    "clock": "9:10",
+    "description": "Rondae Hollis-Jefferson makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 44,
+    "awayTeamScore": 43,
+    "clock": "8:39",
+    "description": "Rondae Hollis-Jefferson makes two point turnaround jump shot",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 46,
+    "awayTeamScore": 43,
+    "clock": "8:22",
+    "description": "Cory Joseph makes two point jump shot (TJ Leaf assists)",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 46,
+    "awayTeamScore": 45,
+    "clock": "8:06",
+    "description": "D'Angelo Russell makes two point driving layup",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 46,
+    "awayTeamScore": 47,
+    "clock": "7:36",
+    "description": "Timofey Mozgov makes two point reverse layup (Caris LeVert assists)",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 49,
+    "awayTeamScore": 47,
+    "clock": "7:14",
+    "description": "Victor Oladipo makes three point jump shot (Thaddeus Young assists)",
+    "event_type": "threepointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 49,
+    "awayTeamScore": 49,
+    "clock": "6:55",
+    "description": "Trevor Booker makes two point layup (D'Angelo Russell assists)",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 52,
+    "awayTeamScore": 49,
+    "clock": "6:42",
+    "description": "Thaddeus Young makes three point jump shot (Darren Collison assists)",
+    "event_type": "threepointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 54,
+    "awayTeamScore": 49,
+    "clock": "6:13",
+    "description": "Thaddeus Young makes two point putback layup",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 54,
+    "awayTeamScore": 51,
+    "clock": "6:09",
+    "description": "D'Angelo Russell makes two point floating jump shot",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 56,
+    "awayTeamScore": 51,
+    "clock": "5:47",
+    "description": "Bojan Bogdanovic makes two point layup (Darren Collison assists)",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 58,
+    "awayTeamScore": 51,
+    "clock": "4:59",
+    "description": "Victor Oladipo makes two point finger roll layup",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 60,
+    "awayTeamScore": 51,
+    "clock": "4:16",
+    "description": "Thaddeus Young makes two point layup (Darren Collison assists)",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 60,
+    "awayTeamScore": 53,
+    "clock": "4:06",
+    "description": "Jeremy Lin makes two point jump shot",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 60,
+    "awayTeamScore": 55,
+    "clock": "3:23",
+    "description": "Jeremy Lin makes two point layup (D'Angelo Russell assists)",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 60,
+    "awayTeamScore": 57,
+    "clock": "2:51",
+    "description": "Trevor Booker makes two point finger roll layup (Allen Crabbe assists)",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 60,
+    "awayTeamScore": 60,
+    "clock": "2:28",
+    "description": "Allen Crabbe makes three point jump shot (D'Angelo Russell assists)",
+    "event_type": "threepointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 61,
+    "awayTeamScore": 60,
+    "clock": "1:27",
+    "description": "Victor Oladipo makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 63,
+    "awayTeamScore": 60,
+    "clock": "1:27",
+    "description": "Victor Oladipo makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 63,
+    "awayTeamScore": 63,
+    "clock": "1:09",
+    "description": "Caris LeVert makes three point jump shot (Jeremy Lin assists)",
+    "event_type": "threepointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 64,
+    "awayTeamScore": 63,
+    "clock": "00:56",
+    "description": "Bojan Bogdanovic makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 66,
+    "awayTeamScore": 63,
+    "clock": "00:56",
+    "description": "Bojan Bogdanovic makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 68,
+    "awayTeamScore": 63,
+    "clock": "00:37",
+    "description": "Thaddeus Young makes two point finger roll layup",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 68,
+    "awayTeamScore": 66,
+    "clock": "00:32",
+    "description": "Jeremy Lin makes three point jump shot",
+    "event_type": "threepointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 70,
+    "awayTeamScore": 66,
+    "clock": "00:15",
+    "description": "Myles Turner makes two point putback layup",
+    "event_type": "twopointmade",
+    "quarter": 2
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 70,
+    "awayTeamScore": 68,
+    "clock": "10:56",
+    "description": "D'Angelo Russell makes two point finger roll layup (Rondae Hollis-Jefferson assists)",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 73,
+    "awayTeamScore": 68,
+    "clock": "10:35",
+    "description": "Bojan Bogdanovic makes three point jump shot (Myles Turner assists)",
+    "event_type": "threepointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 75,
+    "awayTeamScore": 68,
+    "clock": "10:03",
+    "description": "Victor Oladipo makes two point floating jump shot",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 77,
+    "awayTeamScore": 68,
+    "clock": "9:42",
+    "description": "Darren Collison makes two point driving layup",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 78,
+    "awayTeamScore": 68,
+    "clock": "9:42",
+    "description": "Darren Collison makes regular free throw 1 of 1",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 80,
+    "awayTeamScore": 68,
+    "clock": "9:18",
+    "description": "Bojan Bogdanovic makes two point layup (Victor Oladipo assists)",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 80,
+    "awayTeamScore": 69,
+    "clock": "9:02",
+    "description": "Rondae Hollis-Jefferson makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 80,
+    "awayTeamScore": 71,
+    "clock": "9:02",
+    "description": "Rondae Hollis-Jefferson makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 82,
+    "awayTeamScore": 71,
+    "clock": "8:16",
+    "description": "Thaddeus Young makes two point turnaround hook shot",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 82,
+    "awayTeamScore": 72,
+    "clock": "7:55",
+    "description": "Jeremy Lin makes regular free throw 1 of 3",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 82,
+    "awayTeamScore": 74,
+    "clock": "7:55",
+    "description": "Jeremy Lin makes regular free throw 2 of 3",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 82,
+    "awayTeamScore": 77,
+    "clock": "7:55",
+    "description": "Jeremy Lin makes regular free throw 3 of 3",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 82,
+    "awayTeamScore": 78,
+    "clock": "7:32",
+    "description": "D'Angelo Russell makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 82,
+    "awayTeamScore": 80,
+    "clock": "7:32",
+    "description": "D'Angelo Russell makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 82,
+    "awayTeamScore": 82,
+    "clock": "7:21",
+    "description": "DeMarre Carroll makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 84,
+    "awayTeamScore": 82,
+    "clock": "7:04",
+    "description": "Bojan Bogdanovic makes two point layup (Thaddeus Young assists)",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 84,
+    "awayTeamScore": 84,
+    "clock": "6:37",
+    "description": "Trevor Booker makes two point putback layup",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 87,
+    "awayTeamScore": 84,
+    "clock": "6:20",
+    "description": "Lance Stephenson makes three point jump shot (Darren Collison assists)",
+    "event_type": "threepointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 87,
+    "awayTeamScore": 86,
+    "clock": "5:59",
+    "description": "DeMarre Carroll makes two point driving layup",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 89,
+    "awayTeamScore": 86,
+    "clock": "5:43",
+    "description": "Darren Collison makes two point layup",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 89,
+    "awayTeamScore": 87,
+    "clock": "5:33",
+    "description": "Jeremy Lin makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 89,
+    "awayTeamScore": 89,
+    "clock": "5:33",
+    "description": "Jeremy Lin makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 91,
+    "awayTeamScore": 89,
+    "clock": "5:16",
+    "description": "Lance Stephenson makes two point finger roll layup",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 93,
+    "awayTeamScore": 89,
+    "clock": "4:43",
+    "description": "Myles Turner makes two point jump shot (Darren Collison assists)",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 95,
+    "awayTeamScore": 89,
+    "clock": "4:21",
+    "description": "Domantas Sabonis makes two point jump shot (Darren Collison assists)",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 95,
+    "awayTeamScore": 92,
+    "clock": "4:11",
+    "description": "Quincy Acy makes three point jump shot (Jeremy Lin assists)",
+    "event_type": "threepointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 97,
+    "awayTeamScore": 92,
+    "clock": "3:56",
+    "description": "Myles Turner makes two point jump shot (Darren Collison assists)",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 99,
+    "awayTeamScore": 92,
+    "clock": "3:38",
+    "description": "Lance Stephenson makes two point layup (Darren Collison assists)",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 99,
+    "awayTeamScore": 93,
+    "clock": "3:30",
+    "description": "Jeremy Lin makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 99,
+    "awayTeamScore": 95,
+    "clock": "3:30",
+    "description": "Jeremy Lin makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 99,
+    "awayTeamScore": 97,
+    "clock": "3:13",
+    "description": "Caris LeVert makes two point layup",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 99,
+    "awayTeamScore": 98,
+    "clock": "3:13",
+    "description": "Caris LeVert makes regular free throw 1 of 1",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 101,
+    "awayTeamScore": 98,
+    "clock": "3:01",
+    "description": "Darren Collison makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 101,
+    "awayTeamScore": 99,
+    "clock": "2:54",
+    "description": "Allen Crabbe makes regular free throw 1 of 3",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 101,
+    "awayTeamScore": 101,
+    "clock": "2:54",
+    "description": "Allen Crabbe makes regular free throw 2 of 3",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 103,
+    "awayTeamScore": 101,
+    "clock": "2:37",
+    "description": "Domantas Sabonis makes two point dunk (Cory Joseph assists)",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 103,
+    "awayTeamScore": 103,
+    "clock": "2:27",
+    "description": "Caris LeVert makes two point jump shot",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 105,
+    "awayTeamScore": 103,
+    "clock": "2:12",
+    "description": "Myles Turner makes two point jump shot (Lance Stephenson assists)",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 105,
+    "awayTeamScore": 105,
+    "clock": "1:46",
+    "description": "Trevor Booker makes two point putback layup",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 107,
+    "awayTeamScore": 105,
+    "clock": "1:33",
+    "description": "Darren Collison makes two point jump shot",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 107,
+    "awayTeamScore": 108,
+    "clock": "1:23",
+    "description": "Quincy Acy makes three point jump shot (Spencer Dinwiddie assists)",
+    "event_type": "threepointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 110,
+    "awayTeamScore": 108,
+    "clock": "1:08",
+    "description": "Darren Collison makes three point jump shot (Domantas Sabonis assists)",
+    "event_type": "threepointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 111,
+    "awayTeamScore": 108,
+    "clock": "00:37",
+    "description": "Cory Joseph makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 113,
+    "awayTeamScore": 108,
+    "clock": "00:37",
+    "description": "Cory Joseph makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 113,
+    "awayTeamScore": 110,
+    "clock": "00:32",
+    "description": "Spencer Dinwiddie makes two point driving layup",
+    "event_type": "twopointmade",
+    "quarter": 3
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 113,
+    "awayTeamScore": 112,
+    "clock": "11:45",
+    "description": "Rondae Hollis-Jefferson makes two point dunk (Caris LeVert assists)",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 115,
+    "awayTeamScore": 112,
+    "clock": "11:28",
+    "description": "Cory Joseph makes two point driving layup",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 115,
+    "awayTeamScore": 113,
+    "clock": "11:16",
+    "description": "Allen Crabbe makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 115,
+    "awayTeamScore": 115,
+    "clock": "11:16",
+    "description": "Allen Crabbe makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 116,
+    "awayTeamScore": 115,
+    "clock": "10:53",
+    "description": "Lance Stephenson makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 116,
+    "awayTeamScore": 116,
+    "clock": "10:40",
+    "description": "Rondae Hollis-Jefferson makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 116,
+    "awayTeamScore": 118,
+    "clock": "10:40",
+    "description": "Rondae Hollis-Jefferson makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 118,
+    "awayTeamScore": 118,
+    "clock": "10:25",
+    "description": "Domantas Sabonis makes two point layup (Lance Stephenson assists)",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 118,
+    "awayTeamScore": 120,
+    "clock": "10:05",
+    "description": "Caris LeVert makes two point driving layup",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 120,
+    "awayTeamScore": 120,
+    "clock": "9:37",
+    "description": "Domantas Sabonis makes two point dunk (Cory Joseph assists)",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 122,
+    "awayTeamScore": 120,
+    "clock": "9:16",
+    "description": "Lance Stephenson makes two point driving layup",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 124,
+    "awayTeamScore": 120,
+    "clock": "9:09",
+    "description": "Damien Wilkins makes two point jump shot",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 126,
+    "awayTeamScore": 120,
+    "clock": "8:17",
+    "description": "Cory Joseph makes two point jump shot",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 126,
+    "awayTeamScore": 123,
+    "clock": "7:37",
+    "description": "Quincy Acy makes three point jump shot (D'Angelo Russell assists)",
+    "event_type": "threepointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 126,
+    "awayTeamScore": 126,
+    "clock": "7:14",
+    "description": "D'Angelo Russell makes three point jump shot (Caris LeVert assists)",
+    "event_type": "threepointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 126,
+    "awayTeamScore": 128,
+    "clock": "6:44",
+    "description": "D'Angelo Russell makes two point jump shot",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 129,
+    "awayTeamScore": 128,
+    "clock": "6:22",
+    "description": "Cory Joseph makes three point jump shot (Thaddeus Young assists)",
+    "event_type": "threepointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 131,
+    "awayTeamScore": 128,
+    "clock": "6:09",
+    "description": "Victor Oladipo makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 131,
+    "awayTeamScore": 129,
+    "clock": "5:58",
+    "description": "Trevor Booker makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 131,
+    "awayTeamScore": 131,
+    "clock": "5:58",
+    "description": "Trevor Booker makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 133,
+    "awayTeamScore": 131,
+    "clock": "5:21",
+    "description": "Bojan Bogdanovic makes two point layup (Victor Oladipo assists)",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 134,
+    "awayTeamScore": 131,
+    "clock": "5:21",
+    "description": "Bojan Bogdanovic makes regular free throw 1 of 1",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 134,
+    "awayTeamScore": 133,
+    "clock": "4:53",
+    "description": "Jeremy Lin makes two point driving layup",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 136,
+    "awayTeamScore": 133,
+    "clock": "4:33",
+    "description": "Darren Collison makes two point jump shot",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 136,
+    "awayTeamScore": 134,
+    "clock": "3:45",
+    "description": "Trevor Booker makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 136,
+    "awayTeamScore": 136,
+    "clock": "3:07",
+    "description": "Trevor Booker makes two point putback layup",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 136,
+    "awayTeamScore": 139,
+    "clock": "2:38",
+    "description": "DeMarre Carroll makes three point jump shot (D'Angelo Russell assists)",
+    "event_type": "threepointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 137,
+    "awayTeamScore": 139,
+    "clock": "2:13",
+    "description": "Myles Turner makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 139,
+    "awayTeamScore": 139,
+    "clock": "2:13",
+    "description": "Myles Turner makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 139,
+    "awayTeamScore": 141,
+    "clock": "2:04",
+    "description": "D'Angelo Russell makes two point fadeaway jump shot",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 141,
+    "awayTeamScore": 141,
+    "clock": "1:44",
+    "description": "Myles Turner makes two point putback dunk",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "away",
+    "homeTeamScore": 141,
+    "awayTeamScore": 143,
+    "clock": "1:36",
+    "description": "DeMarre Carroll makes two point layup",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 143,
+    "awayTeamScore": 143,
+    "clock": "00:59",
+    "description": "Darren Collison makes two point finger roll layup",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 144,
+    "awayTeamScore": 143,
+    "clock": "00:55",
+    "description": "Myles Turner makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 146,
+    "awayTeamScore": 143,
+    "clock": "00:55",
+    "description": "Myles Turner makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "2pts",
+    "scoringteam": "home",
+    "homeTeamScore": 148,
+    "awayTeamScore": 143,
+    "clock": "00:30",
+    "description": "Thaddeus Young makes two point finger roll layup (Victor Oladipo assists)",
+    "event_type": "twopointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "3pts",
+    "homeTeamScore": 148,
+    "awayTeamScore": 146,
+    "clock": "00:23",
+    "description": "D'Angelo Russell makes three point jump shot",
+    "event_type": "threepointmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 149,
+    "awayTeamScore": 146,
+    "clock": "00:20",
+    "description": "Thaddeus Young makes regular free throw 1 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  },
+  {
+    "scoreType": "fts",
+    "homeTeamScore": 151,
+    "awayTeamScore": 146,
+    "clock": "00:20",
+    "description": "Thaddeus Young makes regular free throw 2 of 2",
+    "event_type": "freethrowmade",
+    "quarter": 4
+  }
+]
